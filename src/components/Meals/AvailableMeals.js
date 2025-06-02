@@ -1,30 +1,30 @@
-import Card from '../UI/Card';
-import MealItem from './MealItem/MealItem';
-import classes from './AvailableMeals.module.css';
+import Card from "../UI/Card";
+import MealItem from "./MealItem/MealItem";
+import classes from "./AvailableMeals.module.css";
 
 const DUMMY_MEALS = [
   {
-    id: 'm1',
-    name: 'Sushi',
-    description: 'Finest fish and veggies',
+    id: "m1",
+    name: "Samosa",
+    description: "Finest chicken and veggies",
     price: 22.99,
   },
   {
-    id: 'm2',
-    name: 'Schnitzel',
-    description: 'A german specialty!',
+    id: "m2",
+    name: "Gulab Jamun",
+    description: "A indian specialty!",
     price: 16.5,
   },
   {
-    id: 'm3',
-    name: 'Barbecue Burger',
-    description: 'American, raw, meaty',
+    id: "m3",
+    name: "Vada Pav",
+    description: "A mumbai specialty!",
     price: 12.99,
   },
   {
-    id: 'm4',
-    name: 'Green Bowl',
-    description: 'Healthy...and green...',
+    id: "m4",
+    name: "Biryani",
+    description: "A hyderabadi specialty!",
     price: 18.99,
   },
 ];
